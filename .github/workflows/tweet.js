@@ -2,11 +2,12 @@
 const { TwitterApi } = require('twitter-api-v2');
 const fs = require('fs');
 
+// 密钥（仅此 bot 使用）
 const client = new TwitterApi({
-  appKey: process.env.TWITTER_APP_KEY,
-  appSecret: process.env.TWITTER_APP_SECRET,
-  accessToken: process.env.TWITTER_ACCESS_TOKEN,
-  accessSecret: process.env.TWITTER_ACCESS_SECRET,
+  appKey: 'fH01BQfp5rWtZE1RXdmEzcdoL',
+  appSecret: 'hSyJmovEucqQwOwYwsdnRCtUi136SsqpZuYmHFDTCI6GpICnAz',
+  accessToken: '2047941857817329664-GaORPcx3xK4edUCdj1iVDB6dquKIX6',
+  accessSecret: 'xRBQS9POEKDwbRB1znSqQbZmuJYKAyx6QkK70GVOdaFte',
 });
 
 const TWEETS = [
